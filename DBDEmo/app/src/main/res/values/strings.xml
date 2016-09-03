@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DBDEmo</string>
+
+    <string name="title"><u>User Details</u></string>
+    <string name="action_settings">Settings</string>
+
+
+    <array name="state">
+        <item>Utter Pradesh</item>
+        <item>MP</item>
+        <item>Delhi</item>
+    </array>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
