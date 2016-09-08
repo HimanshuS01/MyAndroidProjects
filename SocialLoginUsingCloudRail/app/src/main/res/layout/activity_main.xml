@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.codingblocks.socialloginusingcloudrail.MainActivity">
+
+    <Button
+        style="@style/SocialLoginButtonStyle"
+        android:background="#48c4f5"
+        android:onClick="performTwitterLogin"
+        android:text="@string/twitter" />
+
+    <Button
+        style="@style/SocialLoginButtonStyle"
+        android:background="@color/linkedin"
+        android:onClick="performLinkedInLogin"
+        android:text="@string/linkedin" />
+
+    <Button
+        style="@style/SocialLoginButtonStyle"
+        android:background="#804949"
+        android:onClick="performGitHubLogin"
+        android:text="@string/github" />
+
+</LinearLayout>

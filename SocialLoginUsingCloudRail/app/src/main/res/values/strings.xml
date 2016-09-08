@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SocialLoginUsingCloudRail</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">Linked In</string>
+    <string name="github">Github</string>
+
+    <string name="twitter_app_key">tkrXfCJGxrDXnW2Ha7roWhh8H</string>
+    <string name="twitter_app_secret">MzXr1sZDLqa9CKiL77Cqh2oWaCp5DBbzqlfk5Y5Ww056r5e4Pt</string>
+
+    <string name="linked_in_app_key">811bbvea1yogo6</string>
+    <string name="linked_in_app_secret">2xnGnBUxGG2h3GTf</string>
+
+    <string name="github_app_key">385dedec00ed0bc08a90</string>
+    <string name="github_app_secret">a15b107ea6eae6361beb73570f04619ffe195ae0</string>
+
+</resources>
