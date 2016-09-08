@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In short when my top and bottom image bar appears at that time no touh event takes place for
+        imageview from top and bottom image bar. I can click on imageview but not making clickable when i click on actually next or"
+        android:textSize="25sp"
+        android:layout_marginTop="100dp"
+        android:padding="15dp"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/example">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="But here when these top and bottom layout bar displays at that time i want to use only buttons click only which buttons are declare within this layout."
+        android:textSize="25dp"
+        android:textColor="#ed1515" />
+</LinearLayout>
