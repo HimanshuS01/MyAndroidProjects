@@ -1,0 +1,30 @@
+language: android
+
+android:
+  components:
+    - android-23
+    - build-tools-23.0.1
+    - extra-android-m2repository
+
+licenses:
+    - android-sdk-license-5be876d5
+
+jdk:
+  - oraclejdk8
+
+after_success:
+  - .buildscript/deploy_snapshot.sh
+
+env:
+  global:
+    - secure: "VQg2/lK4JyCM/HJXec7qTnDeYDgMpIOhXChBMNU+TIHdAm+nQFQ26dOpXqv5VH8/NNoHNQ0Lm3xy5mUnOWqZgbJLsPbqmXM86wOqqp/Iegqtj7uOiUjSxRXbnk+iHTk/T/YojGzRxVVudCz6D/uaEkHppid7454CH8hj7Pz+hWU="
+    - secure: "Pd7uLJkxNfG/YcUxZlA4uOC7+MCrLZb9bKoHJxfRe8LajTCspF7pxihGj30ZFsLFpRHEU1JjZ3vXLYFJM4YzlQ6s7SV2TaiUAuFxUy3JdkBlOEo8pf08XEwWI/gDAxe5yHQNclSPWW90KsvpcEV23H2+Vn34CWJ2ssceGwfRc9o="
+
+notifications:
+  email: false
+
+sudo: false
+
+cache:
+  directories:
+  - $HOME/.gradle

@@ -1,0 +1,8 @@
+apply plugin: 'com.android.library'
+apply from: "$rootDir/android.gradle"
+
+dependencies {
+    compile project(':alertdialogpro-core')
+}
+
+apply from: "$rootDir/maven_push.gradle"
